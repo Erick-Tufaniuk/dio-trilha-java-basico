@@ -47,9 +47,19 @@ public class TiposVariaveis {
         a = "erick";
         b = "rafa";
 
-        String resultado = a != b ? "false" : "true";
-        System.out.println(resultado);
+        String resultado = b != b ? a : b;
+            System.out.println(resultado);
+   
+    // INSTANCIANDO METODO PARA USO
+        Metodos imp = new Metodos();
+
+        imp.imprimirString("Estude muito");
 
         
+
+        Metodos divisao = new Metodos();
+
+        System.out.println(divisao.dividir(6, 0));
+
     }
 }
