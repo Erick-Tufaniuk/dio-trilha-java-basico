@@ -31,6 +31,25 @@ public class TiposVariaveis {
         numero = - numero;
         System.out.println(numero);
 
+        //UNARIO DE NEGAÇÃO DE VALOR !
+
+        boolean variavel = false;
+
+        System.out.println(! variavel);
+        //O OPERADOR "!" ANTES DA VARIAVEL NEGA O VALOR FAZENDO O RESULTADO SER O INVERSO
+
+
+
+        //OPERADOR TERNARIO 
+
+        int a, b;
+
+        a = 15;
+        b = 6;
+
+        String resultado = a < b ? "Menor" : "Maior";
+        System.out.println(resultado);
+
         
     }
 }
