@@ -42,12 +42,12 @@ public class TiposVariaveis {
 
         //OPERADOR TERNARIO 
 
-        int a, b;
+        String a, b;
 
-        a = 15;
-        b = 6;
+        a = "erick";
+        b = "rafa";
 
-        String resultado = a < b ? "Menor" : "Maior";
+        String resultado = a != b ? "false" : "true";
         System.out.println(resultado);
 
         
