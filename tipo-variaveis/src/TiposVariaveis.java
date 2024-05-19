@@ -19,5 +19,18 @@ public class TiposVariaveis {
         UMA CONSTANTE*/
 
         final double VALOR_DE_PI = 3.14;
+
+        // OPERADORES UNARIOS POSITIVOS, NEGATIVOS , UNARIO INCREMENTO , DECREMENTO E UNARIO LOGICO DE NEGAÇÃO
+
+        //UNARIO POSITIVO É USADO PARA POSITVAR UM NUMERO QUANTO O NEGATIVO O TORNA NEGATIVO
+
+        int numero = 5;
+
+        System.out.println(numero);
+
+        numero = - numero;
+        System.out.println(numero);
+
+        
     }
 }
