@@ -40,14 +40,14 @@ public String getSobreNomeCliente(){
   return sobreNomeCliente;
 }
 public double getSaldo() {
-  return saldo + deposito;
+  return saldo;
 }
 
 //METODOS
 
 public void deposito(double deposito){
   saldo+= deposito;
-  System.out.printf("Deposito de R$%.2f efetuado com sucesso, seu novo saldo é: %.2f.", deposito, saldo);
+  System.out.printf("Deposito de R$%.2f efetuado com sucesso, seu novo saldo disponivel e: %.2f.", deposito, saldo);
     
   }
 }
